@@ -1,0 +1,17 @@
+---
+import { Icon } from "@iconify-icon/react"; // Import Iconify's React component
+
+// Accept props for the icon name, width, height, color, and other attributes
+const {
+  icon,
+  width = 24,
+  height = 24,
+  color = "currentColor",
+  className = "",
+} = Astro.props;
+---
+
+<!-- Apply client:load to render this component client-side -->
+<div class={className} client:load>
+  <Icon icon={icon} width={width} height={height} color={color} />
+</div>
