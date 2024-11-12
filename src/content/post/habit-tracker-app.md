@@ -5,6 +5,7 @@ description: In this blog, I share how I built a fully offline, privacy-first ha
 dateFormatted: Nov 12th, 2024
 ---
 
+<div class="my-1"></div>
 
 ## The Why Behind the Habit Tracker
 
