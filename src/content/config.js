@@ -9,6 +9,20 @@ const postCollection = defineCollection({
 	}),
 });
 
+const projectCollection = defineCollection({
+	type: "content",
+	schema: z.object({
+		name: z.string(),
+		image: z.string(),
+		videoUrl: z.string(),
+		github: z.string(),
+		website: z.string(),
+		brief: z.string(),
+		description: z.string()
+	}),
+});
+
 export const collections = {
 	post: postCollection,
+	project: projectCollection
 };

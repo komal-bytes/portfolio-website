@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "name": "Habito",
+        "description": "Offline Habit Tracking App.",
+        "image": "/assets/images/projects/Habito-Thumbnail.jpg",
+        "url": "https://email.ml"
+    },
+    {
+        "name": "QuickLink",
+        "description": "Serverless URL Shortening and Link Management App",
+        "image": "/assets/images/projects/Quicklink-Thumbnail.png",
+        "url": "https://dns.surf"
+    }
+]
